@@ -1,1 +1,50 @@
+*{
+    font-family: Helvetica;
+    box-sizing: border-box;
+    font-size: 21px;
+}
+header{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+h1{
+    font-size: x-large;
+    text-transform: uppercase ;
+}
+h2 {
+    font-size: large;
+}
+div{
+    margin-left: 2.5%;
+    background-color: slategrey;    
+}
+span{
+    float: right;
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+}
+#box-1 span {
+    background-color: tomato;
+}
+#box-2 span {
+    background-color: firebrick;
+    color: azure;
+}
+#box-3 span {
+    background-color: antiquewhite;
+}
+p{
+    text-align: left;
+    padding: 2%;
+    clear: right;  
+}
 
+@media (min-width: 992px) {
+.col-lg-4{
+    float: left;
+    width: 30%;
+    border: 2px solid black;
+}
+}
